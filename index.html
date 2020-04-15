@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio|中野慎也のポートフォリオ</title>
+    <meta name="description" content="This site is a my portfolio.">
+    <link rel="icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/vendors/bootstrap-reboot.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/loader.css">
+    <script src="scripts/vendors/pace.js"></script>
+</head>
+<body>
+
+    <div id="global-container">
+        <div id="container">
+            <div class="mobile-menu__cover"></div>
+            <div class="nav-trigger"></div>
+            <header class="header">
+                <div class="header__inner">
+                    <div class="logo">
+                        <!-- <img src="images/logo.png" alt="" class="logo__img"> -->
+                        <span class="logo__my">My</span>
+                        <span class="logo__portfolio">Portfolio</span>
+                    </div>
+                    <nav class="header__nav">
+                        <ul class="header__ul">
+                            <li class="header__li item"><a href="#aboutMe">About</a></li>
+                            <li class="header__li item"><a href="#mySkills">Skills</a></li>
+                            <li class="header__li item"><a href="#myWorks">Works</a></li>
+                            <li class="header__li item"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <button class="mobile-menu__btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </header>
+            <div id="content">
+
+                <div class="hero">
+                    <div class="hero__img"></div>
+                    <div class="hero__title">Welcome to my Portfolio</div>
+                </div>
+
+                <div id="main-content">
+                    <main>
+                        <section class="about" id="aboutMe">
+                            <div class="about__inner">
+                                <div class="about__img cover-slide">
+                                    <img class="img-zoom" src="images/about__bg.jpg" alt="">
+                                </div>
+                                <div class="about__texts">
+                                    <div class="about__texts__inner">
+                                        <div class="about__title main-title">
+                                            <span>About</span> <span class="purple">Me</span>
+                                        </div>
+                                        <div class="about__sub sub-title">自己紹介</div>
+                                        <div class="about__description">
+                                            <p>名前:中野慎也</p>
+                                            <p>年齢:20</p>
+                                            <p>学歴:東洋大学経営学部</p>
+                                            <p>活動:イギリスに半年間語学留学の経験あり。</p>
+                                            <p>趣味:プログラミング・筋トレ(週6通い)</p>
+                                        </div> 
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+
+                        
+                        
+                        <section class="skills" id="mySkills">
+                            <div class="skills__header">
+                                <h2 class="main-title tween-animate-title">My Skills</h2>
+                                <p class="sub-title tween-animate-title">使用言語</p>
+                            </div>
+                            <div class="skills__inner">
+                                <div class="skills__item">
+                                    <div class="skills__icon">
+                                        <i class="fab fa-html5 fa-4x"></i>
+                                    </div>
+                                    <div class="skills__texts">
+                                        <div class="skills__texts__inner">
+                                            <h3 class="skills__title main-title">HTML5</h3>
+                                            <p class="skills__description">力強いレイアウトを作成することが可能です。
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills__item">
+                                    <div class="skills__icon">
+                                        <i class="fab fa-css3-alt fa-4x"></i>
+                                    </div>
+                                    <div class="skills__texts">
+                                        <div class="skills__texts__inner">
+                                            <h3 class="skills__title main-title">CSS3</h3>
+                                            <p class="skills__description">どのスクリーンサイズにも機能的なレスポンシブ対応のサイトを作成することが可能です。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills__item">
+                                    <div class="skills__icon">
+                                        <i class="fab fa-js fa-4x"></i>
+                                    </div>
+                                    <div class="skills__texts">
+                                        <div class="skills__texts__inner">
+                                            <h3 class="skills__title main-title">JavaScript</h3>
+                                            <p class="skills__description">HTML＆CSSをもとに動的なサイトを作成することが可能です。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills__item">
+                                    <div class="skills__icon">
+                                        <i class="fab fa-php fa-4x"></i>
+                                    </div>
+                                    <div class="skills__texts">
+                                        <div class="skills__texts__inner">
+                                            <h3 class="skills__title main-title">PHP</h3>
+                                            <p class="skills__description">
+                                                PHPの基本的な機能を理解しています。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills__item">
+                                    <div class="skills__icon">
+                                        <i class="fab fa-vuejs fa-4x"></i>
+                                    </div>
+                                    <div class="skills__texts">
+                                        <div class="skills__texts__inner">
+                                            <h3 class="skills__title main-title">Vue.js</h3>
+                                            <p class="skills__description">
+                                                javaScriptを用いて、容易にプロジェクトを設計することが可能です。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills__item">
+                                    <div class="skills__icon">
+                                        <i class="fas fa-language fa-4x"></i>
+                                    </div>
+                                    <div class="skills__texts">
+                                        <div class="skills__texts__inner">
+                                            <h3 class="skills__title main-title">English</h3>
+                                            <p class="skills__description">留学経験があるので英会話能力には自信があります。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </section>
+
+
+                        <section class="works" id="myWorks">
+                            <div class="works__header">
+                                <h2 class="main-title tween-animate-title">My Works</h2>
+                                <p class="sub-title tween-animate-title">Latest Works</p>
+                            </div>
+                            <div class="works__inner appear up">
+                                <div class="works__container">
+                                    <div class="works__item">
+                                        <div class="cover-slide hover-darken">
+                                            <a class="works__img" href="http://nakashin-yolo.com/">
+                                                <img src="images/work.png" alt="ポートフォリオです">
+                                            </a>
+
+                                        </div>
+                                        <div class="works__title">架空のGYMのサイトを作りました</div>
+                                    </div>
+                                    <div class="works__item">
+                                        <div class="cover-slide hover-darken">
+                                            <a class="works__img" href="http://nakashin-yolo.com/">
+                                                <img src="images/work.png" alt="ポートフォリオです">
+                                            </a>
+
+                                        </div>
+                                        <div class="works__title">架空のGYMのサイトを作りました</div>
+                                    </div>
+                                    <div class="works__item">
+                                        <div class="cover-slide hover-darken">
+                                            <a class="works__img" href="http://nakashin-yolo.com/">
+                                                <img src="images/work.png" alt="ポートフォリオです">
+                                            </a>
+
+                                        </div>
+                                        <div class="works__title">架空のGYMのサイトを作りました</div>
+                                    </div>
+                                    <div class="works__item">
+                                        <div class="cover-slide hover-darken">
+                                            <a class="works__img" href="http://nakashin-yolo.com/">
+                                                <img src="images/work.png" alt="ポートフォリオです">
+                                            </a>
+
+                                        </div>
+                                        <div class="works__title">架空のGYMのサイトを作りました</div>
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                            
+                        </section>
+
+                        <section class="contact" id="myContact">
+                            <div class="contact__header">
+                                <h2 class="main-title">Contact</h2>
+                                <p class="sub-title">お問い合わせ・SNS</p>
+                            </div>
+                            <div class="contact__inner">
+                                <div class="contact__description">
+                                    質問・お問い合わせなどございましたら、メールまたはDMからお問い合わせください。
+                                </div>
+                                
+                            
+                                <ul class="snsbtniti">
+                                    <li><a href="https://twitter.com/shin_yolo1006" class="flowbtn8 fl_tw2"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://www.instagram.com/ns_kny106/?hl=ja" class="flowbtn8 insta_btn2"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="お問い合わせ先のURL" class="flowbtn8 fl_ma2"><i class="far fa-envelope"></i></a></li>
+                                </ul>
+
+                            </div>
+                        </section>
+                            
+                            
+                    </main>
+                </div>
+
+                
+            </div>
+            <footer class="footer">
+                <div class="footer__inner">
+                    <div class="logo">
+                        <!-- <img src="images/logo.png" alt="" class="logo__img"> -->
+                        <span class="logo__my">My</span>
+                        <span class="logo__portfolio">Portfolio</span>
+                    </div>
+                    <nav class="footer__nav">
+                        <ul class="footer__ul">
+                            <li class="footer__li"><a href="#aboutMe">About</a></li>
+                            <li class="footer__li"><a href="#mySkills">Skills</a></li>
+                            <li class="footer__li"><a href="#myWorks">Works</a></li>
+                            <li class="footer__li"><a href="#myContact">Contact</a></li>
+                        </ul>
+                        <div class="footer__copyright">
+                            &copy; Shinya Nakano
+                        </div>
+                    </nav>
+                </div>
+            </footer>
+            
+        </div>
+        <nav class="mobile-menu">
+            <div class="logo">
+                <span class="logo__my">My</span>
+                <span class="logo__portfolio">Portfolio</span>
+            </div>
+            <ul class="mobile-menu__main">
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="#aboutMe">
+                        <span class="main-title">Aboyt Me</span>
+                        <span class="sub-title">自己紹介</span>
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="#mySkills">
+                        <span class="main-title">My Skills</span>
+                        <span class="sub-title">使用言語</span>
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="#myWorks">
+                        <span class="main-title">My Works</span>
+                        <span class="sub-title">作品</span>
+                    </a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link" href="#myContact">
+                        <span class="main-title">Contact Us</span>
+                        <span class="sub-title">お問い合わせ</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        
+    </div>
+
+
+    <script src="scripts/vendors/swiper.min.js"></script>
+    <script src="scripts/vendors/TweenMax.min.js"></script>
+    <script src="scripts/vendors/scroll-polyfill.js"></script>
+    <script src="scripts/libs/scroll.js"></script>
+    <script src="scripts/libs/text-animation.js"></script>
+    <script src="scripts/libs/hero-slider.js"></script>
+    <script src="scripts/libs/mobile-menu.js"></script>
+    <script src="scripts/main.js"></script>
+
+
+</body>
+</html>
